@@ -1,13 +1,13 @@
 {
 	"name": "acme/hello-world",
-	"php": ">=5.4",
-    "ext-imagick": "*",
-    "autoload": {
-    	"psr-0": {
-    		"Acme\\": "lib/"
-    	}
-    },
     "require": {
+        "php": ">=5.4",
+        "ext-imagick": "*",
         "monolog/monolog": "1.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme\\": "lib/"
+        }
     }
 }
