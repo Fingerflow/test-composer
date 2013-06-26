@@ -4,7 +4,7 @@ namespace Acme;
 
 class HelloWorld
 {
-	public function initialize()
+	public function __construct()
 	{
 		return 'test';
 	}
