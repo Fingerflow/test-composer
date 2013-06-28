@@ -1,7 +1,7 @@
 {
-	"name": "acme/hello-world",
+	"name": "acme/hello-planet",
     "require": {
-        "monolog/monolog": "1.2.*"
+        "acme/hello-world": "1.*"
     },
     "autoload": {
         "psr-0": {

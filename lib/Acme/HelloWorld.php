@@ -6,6 +6,6 @@ class HelloWorld
 {
 	public function __construct()
 	{
-		return 'test';
+		return 'Planet';
 	}
 }
